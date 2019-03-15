@@ -1,0 +1,20 @@
+body {
+    background: #201148;
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #00ccfd;
+    font-family: 'Coiny', cursive;
+    position: relative;
+  }
+  
+
+
+canvas {
+    
+    
+    margin: auto;
+}

@@ -1,0 +1,20 @@
+{
+  "name": "tactica",
+  "version": "1.0.0",
+  "description": "browser game of wit and strategy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "webpack --watch --mode=development",
+    "heroku-postbuild": "webpack -p"
+  },
+  "author": "Trevor Shepard",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^4.29.6"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.2.3"
+  }
+}
